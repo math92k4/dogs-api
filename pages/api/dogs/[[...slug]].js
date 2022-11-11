@@ -3,7 +3,7 @@ export default function handler(req, res) {
     {
       id: 1,
       slug: "henry",
-      title: "Henry || Cute dogs",
+      title: "Henry",
       content: {
         heading: "Here's Henry",
         text: "His favorite color is yellow.",
@@ -18,7 +18,7 @@ export default function handler(req, res) {
     {
       id: 2,
       slug: "bufas",
-      title: "Bufas || Cute dogs",
+      title: "Bufas",
       content: {
         heading: "Here's Bufas",
         text: "His favorite color is blue.",
@@ -33,7 +33,7 @@ export default function handler(req, res) {
     {
       id: 3,
       slug: "steve",
-      title: "Steve || Cute dogs",
+      title: "Steve",
       content: {
         heading: "Here's Steve",
         text: "His favorite color is yellow.",
