@@ -45,6 +45,22 @@ export default function handler(req, res) {
         },
       },
     },
+    ,
+    {
+      id: 4,
+      slug: "snoopy",
+      title: "Snoopy",
+      content: {
+        heading: "Here's Snoopy",
+        text: "His favorite color is hotpink.",
+        image: {
+          src: "https://images.unsplash.com/photo-1625316708582-7c38734be31d",
+          alt: "Snoopy likes hotpink",
+          width: "2831",
+          height: "4243",
+        },
+      },
+    },
   ];
 
   if (!req.query.slug) return res.status(200).json(dogs);
@@ -55,6 +71,7 @@ export default function handler(req, res) {
   if (req.query.slug[0] === "henry") return res.status(200).json(dogs[0]);
   if (req.query.slug[0] === "bufas") return res.status(200).json(dogs[1]);
   if (req.query.slug[0] === "steve") return res.status(200).json(dogs[2]);
+  if (req.query.slug[0] === "snoopy") return res.status(200).json(dogs[3]);
 
   // console.log(req.query);
   return res.status(204).end();
