@@ -45,7 +45,6 @@ export default function handler(req, res) {
         },
       },
     },
-    ,
     {
       id: 4,
       slug: "snoopy",
@@ -54,10 +53,10 @@ export default function handler(req, res) {
         heading: "Here's Snoopy",
         text: "His favorite color is hotpink.",
         image: {
-          src: "https://images.unsplash.com/photo-1625316708582-7c38734be31d",
+          src: "https://i.etsystatic.com/6936379/r/il/425869/3268376425/il_1588xN.3268376425_3gpa.jpg",
           alt: "Snoopy likes hotpink",
-          width: "2831",
-          height: "4243",
+          width: "1588",
+          height: "1059",
         },
       },
     },
